@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+nav.navv{
+position: sticky;
+    height: 100px;
+}
+ul.touch{
+    color: #D6D6D6;
+}
+ul.touch :hover{
+    color: #7C0B0B;
+}
+button.great{
+    background-color: #7C0B0B;
+color: #FFFFFF;
+    height: 40px;
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        margin: auto;
+}
+#hero{
+    background-image: url(./images/Rectangle\ 1.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+.inside{
+    box-sizing: border-box;
+    border: 1px solid rgba(124, 11, 11, 0.4);
+        width: 587px;
+        height: 651px;
+        left: 100px;
+        top: 982px;
+margin: 20px;
+}
+.form-control{
+    box-sizing: border-box;
+    
+        
+        width: 463px;
+        height: 42px;
+        left: 140px;
+        top: 1165px;
+}
+.form-select{
+    margin-left: 20px;
+}
+.form-label{
+margin-left: 20px;}
+#inputname{
+    box-sizing: border-box;
+    margin-left: 20px;
+        width: 463px;
+        height: 42px;
+        left: 140px;
+        top: 1165px;
+    
+        border: 1px solid rgba(124, 11, 11, 0.3);
+}
